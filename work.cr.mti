@@ -1,0 +1,36 @@
+/home/evoldab/Pipe3bit16/IF.v {1 {vlog -work work -stats=none /home/evoldab/Pipe3bit16/IF.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module IF
+
+Top level modules:
+	IF
+
+} {} {}} /home/evoldab/Pipe3bit16/ID.v {1 {vlog -work work -stats=none /home/evoldab/Pipe3bit16/ID.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ID
+
+Top level modules:
+	ID
+
+} {} {}} /home/evoldab/Pipe3bit16/core.v {1 {vlog -work work -stats=none /home/evoldab/Pipe3bit16/core.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module core
+
+Top level modules:
+	core
+
+} {} {}} /home/evoldab/Pipe3bit16/core_tb.v {1 {vlog -work work -stats=none /home/evoldab/Pipe3bit16/core_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_riscV
+
+Top level modules:
+	tb_riscV
+
+} {} {}} /home/evoldab/Pipe3bit16/IE.v {1 {vlog -work work -stats=none /home/evoldab/Pipe3bit16/IE.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module IE
+
+Top level modules:
+	IE
+
+} {} {}}

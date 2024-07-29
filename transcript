@@ -1,0 +1,45 @@
+project open /home/evoldab/work
+# Loading project work
+vsim work.tb_riscV
+# vsim work.tb_riscV 
+# Start time: 15:56:51 on Jul 29,2024
+# Loading work.tb_riscV
+# Loading work.core
+# Loading work.IF
+# Loading work.ID
+# Loading work.IE
+add wave -position insertpoint sim:/tb_riscV/uut/*
+run
+# ** Error: (vsim-7) Failed to open VCD file "/home/evoldab/Pipeline3bit16/waveform.vcd" in write mode.
+# No such file or directory. (errno = ENOENT)    : /home/evoldab/Pipe3bit16/core_tb.v(29)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_riscV
+# At time                    0, PC = 0000, instr_if = 0210, instr_id = 0000
+run
+# At time                   20, PC = 0001, instr_if = 1221, instr_id = 0210
+run
+# At time                   40, PC = 0002, instr_if = 2301, instr_id = 1221
+run
+# At time                   60, PC = 0003, instr_if = 3201, instr_id = 2301
+run
+# At time                   80, PC = 0004, instr_if = 4201, instr_id = 3201
+run
+# At time                  100, PC = 0005, instr_if = 2010, instr_id = 4201
+run
+# At time                  120, PC = 0006, instr_if = 2121, instr_id = 2010
+run
+# At time                  140, PC = 0007, instr_if = 3210, instr_id = 2121
+run
+# At time                  160, PC = 0008, instr_if = 0201, instr_id = 3210
+run
+# At time                  180, PC = 0009, instr_if = 1102, instr_id = 0201
+run
+# At time                  200, PC = 000a, instr_if = xxxx, instr_id = 1102
+run
+# At time                  220, PC = 000b, instr_if = xxxx, instr_id = xxxx
+run
+# At time                  240, PC = 000c, instr_if = xxxx, instr_id = xxxx
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/evoldab/wave.do
+# Project file /home/evoldab/work.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# End time: 16:08:22 on Jul 29,2024, Elapsed time: 0:11:31
+# Errors: 1, Warnings: 1
